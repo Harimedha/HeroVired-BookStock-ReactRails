@@ -9,15 +9,12 @@ function Header(){
             zIndex:100,
             top:0,
             boxShadow: '1px 3px 10px skyblue',
-            paddingBottom:'18px',
-            // marginTop: '10px',                   
+            paddingBottom:'18px',                  
             backgroundColor:'white',
             borderRadius : '20px',
             height:'50px',
             width:'100%',
-            textAlign:'center',
-            // alignItems:'center',
-            // justifyContent:'space-evenly'                       
+            textAlign:'center',                    
         }}>
             <Link to="/">
             <h2>Book Stock Management </h2>

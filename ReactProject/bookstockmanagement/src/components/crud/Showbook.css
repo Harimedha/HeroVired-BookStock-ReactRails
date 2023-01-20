@@ -29,34 +29,31 @@
 
 .headingcontainer{
 
-  display: flex;
-  flex-direction: row;  
+  display: grid;
+  grid-template-columns: 40% 30% 10% 10% 10%;
+  justify-content: space-evenly;
+  justify-items: center;
+  /* flex-direction: row;   */
   background-color: white;
-  width: 100%;
+  width: 100%; 
+  justify-content: space-around;
   /* margin-left: -10px; */
 }
-.headingcontainer >h5{
 
-    padding-left: 150px;
-    padding-right: 150px;
-
-}
 .card {
   background-color: white;
     margin: 10px;
     height: 50%;
     width: 100%;
+    justify-content: space-evenly;
+    justify-items: center;    
+    align-items: center;  
     display: grid;
     padding-left: 10px;
-    grid-template-columns: 40% 30% 10% 10% 10%;
-    justify-content: space-evenly;
-    justify-items: center;
-    /* flex-direction: column; */
-    align-items: center;
-    /* background-color: white; */
-    -webkit-box-shadow: 10px 10px 5px -4px rgba(204, 196, 204, 1);
-    -moz-box-shadow: 10px 10px 5px -4px rgba(204, 196, 204, 1);
-    box-shadow: 10px 10px 5px -4px rgba(204, 196, 204, 1);
+    grid-template-columns: 40% 30% 10% 10% 10%;   
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(204, 196, 204, 1);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(204, 196, 204, 1);
+    box-shadow: 10px 10px 5px -6px rgba(204, 196, 204, 1);
     cursor: pointer;
 }
 
@@ -66,55 +63,49 @@ input{
 }
 
 .del-btn {
+    display: flex;
     align-items: center;
     text-align: center;
     background-image: linear-gradient(rgba(212, 32, 77, 0.84), rgba(220, 224, 226, 0.84) 50%);
     border-radius: 30px;
     border-width: 0;
-    color: darkblue;
-    cursor: pointer;
-    display: flex;
+    color: black;
     font-family: 'Times New Roman', Times, serif,sans-serif;
     font-size: 15px;
     font-weight: 600;
     justify-content: center;
     margin: 0;
     padding: 10px 10px;  
-    text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
   }
 .edit-btn {
+  display: flex;
   align-items: center;
   text-align: center;
   background-image: linear-gradient(rgba(32, 89, 212, 0.84), rgba(220, 224, 226, 0.84) 50%);
   border-radius: 30px;
   border-width: 0;
   box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
-  color: darkblue;
-  cursor: pointer;
-  display: flex;
+  color: black;  
   font-family: 'Times New Roman', Times, serif,sans-serif;
   font-size: 15px;
   font-weight: 600;
   justify-content: center;
   margin: 0;
   padding: 10px 10px;  
-  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
 }
 .add-btn {
+    display: flex;
     align-items: center;
     text-align: center;
     background-image: linear-gradient(rgba(64, 131, 78, 0.84), rgba(220, 224, 226, 0.84) 50%);
     border-radius: 30px;
     border-width: 0;
     box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
-    color: darkblue;
-    cursor: pointer;
-    display: flex;
+    color: black;
     font-family: 'Times New Roman', Times, serif,sans-serif;
     font-size: 15px;
     font-weight: 600;
     justify-content: center;
     margin: 0;
     padding: 10px 10px;  
-    text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
   }
