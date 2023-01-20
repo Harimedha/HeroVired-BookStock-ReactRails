@@ -1,0 +1,9 @@
+.deletecontainer{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    border: 1px solid black;
+    align-items: center;
+
+}
